@@ -46,7 +46,7 @@ export default function RecipeDetails() {
                 </div>
               </div>
 
-              <div className="cook text-base px-4 mt-6 pt-10">{meal?.strInstructions}</div>
+              <div className="font-[cursive] text-base px-4 mt-6 pt-10">{meal?.strInstructions}</div>
 
               <div className="rounded-2xl h-fit bg-white py-5 mt-5">
                 <ul className='px-4'>

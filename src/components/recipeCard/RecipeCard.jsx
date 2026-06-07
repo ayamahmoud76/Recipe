@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function RecipeCard({recipe, setId, setShow}) {
+
   return <>
   
   <div className='shadow-xl p-2 mb-8 pb-2 group rounded-4xl hover:scale-105 duration-200 bg-white'>
