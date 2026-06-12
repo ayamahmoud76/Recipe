@@ -1,22 +1,24 @@
 ## Recipe 
-## A web project for browsing food recipes using React and Vite.
-## Displays recipes from an external API and displays recipes with details for each recipe.
-## It consists of two pages, one for displaying recipes and the other for displaying details about the recipe its ingredients, and how to cook it.
+## A responsive recipe browsing web app that allows users to explore meals by category, ingredient, or area. Built with React.js and powered by TheMealDB API.
+## Live Demo
+https://recipe-urfy.vercel.app/
 
 
+## Features
+- Home Page — Browse all meals with category filtering (Beef, Chicken, Pasta, Vegan...)
+- Recipe Details Page — View full recipe with ingredients, instructions, and YouTube video
+- Ingredients Page — Browse meals by main ingredient
+- Areas Page — Explore meals by cuisine area (Italian, Egyptian, Japanese...)
+- Loading Page — Smooth loading state between pages
+- Fully Responsive — Works on mobile, tablet, and desktop
 
 ## Technologies Used
-
 - React
-- Vite
 - Tailwind CSS
 - React Router DOM
 - Axios
-- ESLint
-- JavaScript
-- HTML
-- CSS 
-
+-  Vercel (Deployment)
 - Data fetched from TheMealDB public API 
 API link 'https://www.themealdb.com/api.php'
+
 
