@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import { useParams, Link } from 'react-router-dom'
-import RecipeCard from "../RecipeCard/RecipeCard";
+import RecipeCard from "../recipeCard/RecipeCard";
 import LoadingPage from "../Loading/LoadingPage";
 import axios from "axios";
 
