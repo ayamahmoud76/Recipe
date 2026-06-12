@@ -69,26 +69,27 @@ export default function RecipeDetails() {
                     <span>{meal?.strIngredient4}</span>
                     <span>{meal?.strMeasure4}</span>
                   </li>
-                  <li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
+                  {meal?.strIngredient5 && (<li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
                     <span>{meal?.strIngredient5}</span>
                     <span>{meal?.strMeasure5}</span>
-                  </li>
-                  <li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
+                  </li>)}
+                  {meal?.strIngredient6 && (<li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
                     <span>{meal?.strIngredient6}</span>
                     <span>{meal?.strMeasure6}</span>
-                  </li>
-                  <li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
+                  </li>)}
+                  {meal?.strIngredient7 && (<li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
                     <span>{meal?.strIngredient7}</span>
                     <span>{meal?.strMeasure7}</span>
-                  </li>
-                  <li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
+                  </li>)}
+                  {meal?.strIngredient8 && (<li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
                     <span>{meal?.strIngredient8}</span>
                     <span>{meal?.strMeasure8}</span>
-                  </li>
-                  <li className='py-2 flex justify-between capitalize'>
+                  </li>)}
+                  {meal?.strIngredient9 && (<li className='py-2 flex justify-between border-b-2 border-gray-300 capitalize'>
                     <span>{meal?.strIngredient9}</span>
                     <span>{meal?.strMeasure9}</span>
-                  </li>
+                  </li>)}
+
                 </ul>
               </div>
             </div>

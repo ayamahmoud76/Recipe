@@ -9,7 +9,7 @@ export default function IngredientMeals() {
     const { ingredient } = useParams()
             async function getAllIngredientMeals(){
                 let {data} = await axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`)
-                console.log(data.meals);
+                console.log(data.meals, 'ingredient meals');
                 setRecipes(data.meals)
                 
             }

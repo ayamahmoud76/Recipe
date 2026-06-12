@@ -26,7 +26,7 @@ export default function IngredientCard({ingredient}) {
      
  
        
-        <Link to={`/ingredient/${ingredient.strIngredient}`} className="mx-auto my-3 w-full text-center p-2 bg-emerald-500 hover:bg-emerald-600 active:scale-95 transition-all duration-200 text-white text-sm font-semibold rounded-2xl shadow-md shadow-emerald-200">
+        <Link to={`/ingredients/${ingredient.strIngredient}`} className="mx-auto my-3 w-full text-center p-2 bg-emerald-500 hover:bg-emerald-600 active:scale-95 transition-all duration-200 text-white text-sm font-semibold rounded-2xl shadow-md shadow-emerald-200">
           View Meals
         </Link>
       </div>
