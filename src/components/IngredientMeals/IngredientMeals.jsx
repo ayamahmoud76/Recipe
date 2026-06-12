@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import RecipeCard from "../RecipeCard/RecipeCard";
+import RecipeCard from "../recipeCard/RecipeCard";
 import LoadingPage from "../Loading/LoadingPage";
 
 export default function IngredientMeals() {
